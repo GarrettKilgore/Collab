@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    list-style-type: none;
+    font-kerning: auto;
+}
+
+h1{
+    color: red;
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 2px 2px 15px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 15px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    display: inline-grid;
+    column-gap: 50px;
+    grid-template-columns: 500px;
+    font-weight: bold;
+    text-shadow: 2px 2px 15px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+#input-review{
+    width: 50%;
+    height: 65px;
+}
+
+.list-item{
+    color: #BF5700;
+    font-family: Arial;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+}
+
+#info{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 35px;
+    margin-bottom: -20px;
+    border-style: solid;
+    background-color: cyan;
+    box-shadow: 2px 2px 15px black;
+}
+
+#pick-button{
+    margin-top: 250px;
+    padding-bottom: 200px;
+    border-style: solid;
+    background-color: cyan;
+    box-shadow: 2px 2px 15px black;
+}
+
+body {
+    background-color: grey;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("1111875-3840x2160-desktop-4k-rock-climbing-background-image.jpg");
+}
+
+button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#edit-form{
+    display: inline-grid;
+    column-gap: 50px;
+    grid-template-columns: 500px;
+    color: black;
+    background-color: white;
+    border-style: dotted
+}
+
+#climbing-review-wrapper{
+    background-color: lightgray;
+    color: black;
+    display: inline-grid;
+    column-gap: 50px;
+    grid-template-columns: 500px;
+    border-style: dotted;
+
+}
+
+#pick-button:hover {
+    background-color: white; 
+    color: orange; 
+}
+
+#pick-button2:hover {
+    background-color: white; 
+    color: orange; 
+}
+
+#pick-button3:hover {
+    background-color: white; 
+    color: orange; 
+}
+
+#add-button:hover {
+    background-color: white; 
+    color: orange; 
+}

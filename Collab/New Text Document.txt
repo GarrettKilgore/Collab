@@ -1,0 +1,5 @@
+flask
+passlib
+pysqlite3
+bcrypt
+f24-sqlite-example/server/requirements.txt (END)
