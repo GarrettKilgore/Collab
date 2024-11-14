@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>message log</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Rock Climbing</h1>
+
+        <label>Select Color</label>
+        <input type="color" id="colorPicker">
+        <button id="save-color-button">Save Color</button>
+        <hr>
+        <h2>Rock Climbing Review</h2>
+        
+        <div id="edit-form">
+            <h2>Type your review here:</h2>
+                
+                <label for="edit-climbing-name">Name</label>
+                <input type="text" id="edit-climbing-name"><br>
+
+                <label for="edit-climbing-difficulty">Difficulty</label>
+                <input type="text" id="edit-climbing-difficulty"><br>
+
+                <label for="edit-climbing-color">Color</label>
+                <input type="text" id="edit-climbing-color"><br>
+
+                <label for="edit-climbing-height">Height</label>
+                <input type="integer" id="edit-climbing-height"><br>
+
+                <label for="edit-climbing-hold">Types of Holds</label>
+                <input type="text" id="edit-climbing-hold"><br>
+
+                <label for="edit-climbing-rope">Rope</label>
+                <input type="text" id="edit-climbing-rope"><br>
+
+                <label for="edit-climbing-review">Review</label>
+                <textarea id="edit-climbing-review"></textarea><br>
+
+                <button id="add-review-button">Add Review</button>
+                <button id="save-review-button">Save Review</button>
+            </div>
+        <br>
+        <section id="climbing-review-wrapper">
+        </section>
+       <!--
+        Create edit route server
+        new update method in db class
+        event trigger (edit button)
+        event listener
+        event handler
+        request fetch (app.js)
+        response server
+        build componenets to retrieve data
+
+        ...-->
+        
+        <script src="app.js"></script>
+    </body>
+</html>
